@@ -1,0 +1,25 @@
+node_modules
+dist
+dist-ssr
+.DS_Store
+.vite
+
+# Secrets and local credentials — never commit these
+.env
+.env.*
+!.env.example
+*.local
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Vercel
+.vercel
+
+# Editor
+.vscode/*
+!.vscode/extensions.json
+.idea
